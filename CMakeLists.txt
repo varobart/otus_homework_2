@@ -34,7 +34,7 @@ if(BUILD_TESTS)
     add_subdirectory(tests)
 endif()
 
-install(TARGETS sayversion RUNTIME DESTINATION bin)
+install(TARGETS bulk RUNTIME DESTINATION bin)
 
 set(CPACK_GENERATOR DEB)
 #set(CPACK_PACKAGE_VERSION_MAJOR "${PROJECT_VERSION_MAJOR}")
